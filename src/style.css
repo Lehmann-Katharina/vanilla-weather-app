@@ -1,3 +1,127 @@
+.body {
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+}
+
+.weather-app-wrapper {
+  max-width: 700px;
+  margin: 30px auto;
+  border: 1px solid #dadde1;
+
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+  padding: 40px;
+  color: #878787;
+}
+
+.weather-app form {
+  margin-top: 20px;
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 30px;
+}
+
+.col-9,
+.col-3,
+.col-6 {
+  position: relative;
+  width: 100;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.form-control {
+  background: #f9f7fe;
+  border: none;
+  padding: 15px 20px;
+  display: inline-block;
+  border-radius: 6px;
+  color: rgba(246, 140, 4, 0.4);
+  font-size: 16px;
+  height: 50px;
+  line-height: 20px;
+}
+
+.search-button {
+  color: rgba(136, 93, 241);
+  background: darkorange;
+  height: 50px;
+  line-height: 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid darkorange;
+}
+
+.overview {
+  padding-top: 30px;
+  color: rgba(39, 33, 66, 0.4);
+}
 h1 {
-  color: blueviolet;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 15px;
+}
+
+strong {
+  color: darkorange;
+  font-weight: lighter;
+}
+.temperature {
+  color: #212121;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 1;
+  padding-right: 0;
+}
+
+.weather-app .unit {
+  color: #212121;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -34px;
+}
+.weather-forecast {
+  margin-top: 40px;
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.weather-forecast .forecast-time {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: rgba(39, 33, 66, 0.4);
+}
+
+.forecast-temperature-max,
+.forecast-temperature-min {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.forecast-temperature-max {
+  color: darkorange;
+}
+
+.forecast-temperature-min {
+  color: rgba(246, 140, 4, 0.6);
+}
+.footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+a,
+.myname {
+  color: #885df1;
 }
