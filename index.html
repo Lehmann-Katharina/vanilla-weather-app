@@ -10,6 +10,8 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
     <title>vanilla weather app</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
@@ -41,12 +43,12 @@
           <div class="overview">
             <div class="row">
               <div class="col-6">
-                <h1 id="city">New York</h1>
+                <h1 id="city">London</h1>
                 <ul>
-                  <li><span>Wednesday 16:09</span> description</li>
+                  <li><span>Wednesday 16:09 |</span> <span id="description"></span> </li>
                   <li>
-                    Humidity: <strong>85%</strong> ,Wind:
-                    <strong>0.45 km/h</strong>
+                    Humidity: <strong id="humidity"></strong>% | Wind:
+                    <strong id="wind"> </strong> km/h
                   </li>
                 </ul>
               </div>
@@ -54,8 +56,8 @@
                 <div class="temperature-container d-flex justify-content-end">
                   <canvas width="52" height="52"></canvas>
                   <div>
-                    <span class="temperature"> 25 </span>
-                    <span class="unit"> °C</span>
+                    <span class="temperature" id="temperature">25</span> 
+                    <span class="unit">°C</span>
                   </div>
                   </div>
                 </div>

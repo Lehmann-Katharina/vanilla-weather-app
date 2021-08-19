@@ -8,8 +8,11 @@
   max-width: 700px;
   margin: 30px auto;
   border: 1px solid #dadde1;
-
-  background: #fff;
+  background: linear-gradient(
+    360deg,
+    rgb(245, 201, 149) 0%,
+    rgb(196, 173, 204) 46%
+  );
   border-radius: 16px;
   box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
   padding: 40px;
@@ -44,13 +47,13 @@
 }
 
 .search-button {
-  color: rgba(136, 93, 241);
-  background: darkorange;
+  background-color: rgba(136, 93, 241);
+  color: #f9f7fe;
   height: 50px;
   line-height: 20px;
   font-size: 16px;
   border-radius: 6px;
-  border: 1px solid darkorange;
+  border: 1px solid rgb(196, 173, 204);
 }
 
 .overview {
@@ -68,7 +71,7 @@ ul {
 }
 
 strong {
-  color: darkorange;
+  color: rgba(136, 93, 241);
   font-weight: lighter;
 }
 .temperature {
@@ -81,12 +84,12 @@ strong {
 
 .weather-app .unit {
   color: #212121;
-  font-size: 28px;
+  font-size: 23px;
   line-height: 36px;
   font-weight: 400;
   position: relative;
   line-height: 1;
-  top: -34px;
+  top: -42px;
 }
 .weather-forecast {
   margin-top: 40px;
@@ -110,11 +113,11 @@ strong {
 }
 
 .forecast-temperature-max {
-  color: darkorange;
+  color: rgba(136, 93, 241);
 }
 
 .forecast-temperature-min {
-  color: rgba(246, 140, 4, 0.6);
+  color: rgba(136, 93, 241, 0.6);
 }
 .footer {
   margin-top: 30px;
